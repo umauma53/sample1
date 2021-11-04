@@ -20,7 +20,6 @@ footer{
 .contents{
   margin: 0 auto;
   width: 1200px;
-  background: #fffacd
 }
 .topImage{
   width: 1200px;
@@ -51,6 +50,7 @@ footer{
   flex-flow: row wrap;
   justify-content: space-between;
   padding: 40px;
+  background: #fffacd
 }
 .navBox{
   width: 250px;
@@ -86,16 +86,22 @@ footer{
   top: 0;
   left: 0;
   border-width: 25px 0px 25px 15px;
-  border-color: transparent transparent transparent #fff;
+  border-color: transparent transparent transparent #fffacd;
   border-style: solid;
 }
 .ribbon1:after {
   top: 0;
   right: 0;
   border-width: 25px 15px 25px 0px;
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent #fffacd transparent transparent;
   border-style: solid;
 }
-.ribbon:hover{
-  background: green;/*塗りつぶし色*/
+
+.ribbon1 a{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
