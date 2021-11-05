@@ -50,7 +50,8 @@ footer{
   flex-flow: row wrap;
   justify-content: space-between;
   padding: 40px;
-  background: #fffacd
+  background: #fffacd;
+box-sizing: border-box;
 }
 .navBox{
   width: 250px;
@@ -103,4 +104,65 @@ footer{
 }
 .ribbon1 a:hover{
   color: #f00;
+}
+
+/*グッズ紹介部分*/
+.goods{
+  padding: 40px;
+}
+.goods1{
+  background: #e6eb94;
+}
+.goods2{
+  background: #fff;
+}
+.goods h2{
+  padding: 10px;
+  margin: 0;
+}
+.goods1 h2{
+  color: #fff;
+  background: #cc0000;
+  text-align: center;
+}
+.goods2 h2{
+  color: #fff;
+  background: #004d25;
+  text-align: center;
+}
+.grid{
+  display: grid;
+  grid-template-rows: 480px;
+  grid-template-columns: 480px 1fr;
+  margin: 24px 0 0 0;
+}
+.gridItem1{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+.gridItem2{
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  padding: 0 0 0 20px;    
+}
+p.caption{
+  font-weight: bold;
+}
+
+.button a{
+  display: block;
+  margin: 0 auto;
+  padding: 1em 2em;
+  width: 300px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ff8c00;
+  border-radius: 50vh;
+  text-align: center;
+  text-decoration: none;
+}
+.button a:hover {
+  text-decoration: none;
+  background-color: #ffa500;
 }
