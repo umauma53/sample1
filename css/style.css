@@ -96,12 +96,11 @@ footer{
   border-color: transparent #fffacd transparent transparent;
   border-style: solid;
 }
-
 .ribbon1 a{
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+.ribbon1 a:hover{
+  color: #f00;
 }
