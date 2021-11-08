@@ -166,3 +166,22 @@ p.caption{
   text-decoration: none;
   background-color: #ffa500;
 }
+
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  .contents{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .topImage{
+    width: 100%;
+    height: 160px;
+  }
+  .topImage span{
+    font-size: 24px;
+  }
+  .message{
+    font-size: 16px;
+  }
+
+}
