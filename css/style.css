@@ -130,6 +130,10 @@ box-sizing: border-box;
   background: #004d25;
   text-align: center;
 }
+.goodsImg{
+  width: 480px;
+  height: 480px;
+}
 .grid{
   display: grid;
   grid-template-rows: 480px;
@@ -183,5 +187,47 @@ p.caption{
   .message{
     font-size: 16px;
   }
+  .nav{
+    justify-content: space-between;
+    padding: 20px;
+    background: #fffacd;
+    box-sizing: border-box;
+  }
+  .navBox{
+    width: 150px;
+    text-align: center;
+  }
+  .circle{
+    width:150px;
+    height:150px;
+  }
+  .ribbon1{
+    height: 50px;/*リボンの高さ*/
+    line-height: 25px;/*リボンの高さ*/
+    padding: 0 30px;/*横の大きさ*/
+    font-size: 11px;/*文字の大きさ*/
+  }
+  .goods{
+    padding: 20px;
+  }
+  .grid{
+    display: grid;
+    grid-template-rows:  calc(100vw - 40px) 1fr;
+    grid-template-columns: 1fr;
+    margin: 24px 0 0 0;
+  }
+.gridItem1{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+.gridItem2{
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  padding: 0 0 0 0;    
+}
+.goodsImg{
+  width: calc(100vw - 40px);
+  height: calc(100vw - 40px);
+}
 
 }
